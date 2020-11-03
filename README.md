@@ -8,4 +8,6 @@ Made following Brad Travery's [tutorial](https://www.youtube.com/watch?v=fBNz5xF
 - [nodemon](https://www.npmjs.com/package/nodemon)
 
 ## Built in Node Modules Used
+*Example usage for these can be found in the **reference** folder*
 - [Path](https://nodejs.org/api/path.html)
+- [File System](https://nodejs.org/api/fs.html)

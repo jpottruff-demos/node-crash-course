@@ -14,5 +14,5 @@ console.log(path.extname(__filename));
 // Create path object
 console.log(path.parse(__filename).base);
 
-// Concatenate paths (this can help with delimiters (eg. forward and backslashes))
+// Concatenate paths (THIS CAN HELP w/ DELIMITERS (eg. *****forward and backslashes))
 console.log(path.join(__dirname, 'test', 'hello.html'));
