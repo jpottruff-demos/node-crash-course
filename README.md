@@ -3,11 +3,22 @@
 ## Overview
 Made following Brad Travery's [tutorial](https://www.youtube.com/watch?v=fBNz5xF-Kx4) on youtube. 
 
-#### Reference Folder
+**Reference Folder**
+
 Contains standalone demos of each module used. To run them, navigate into the *reference* folder and run:
 
 `node <demo-file-name>`
 
+**Main App (index.js)**
+
+A Bare-bones Server with:
+- [Home Page](http://localhost:5000/)
+- [About Page](http://localhost:5000/about.html) *(include the file extension - this is due to how the server parses the url)*
+- [404 Page]((http://localhost:5000/about)) *(anything that is not the above 2 files)*
+
+To run:
+
+`npm run dev`
 
 ## External Libraries / Dependencies
 - [UUID](https://www.npmjs.com/package/uuid) *(for creating unique identifiers on the fly)*
